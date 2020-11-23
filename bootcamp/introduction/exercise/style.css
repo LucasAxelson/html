@@ -1,0 +1,10 @@
+body {
+    background-image: url(https://blog.vindi.com.br/wp-content/uploads/2018/03/Caf%C3%A9-por-Assinatura.jpg);
+    color: pink;
+}
+
+#title, .introduction, .products .contact {
+    font-size: 24px;
+    font-style: italic;
+}
+
