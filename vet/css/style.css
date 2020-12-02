@@ -33,10 +33,11 @@ body{
 
 .menu-topo nav ul {
     display: flex;
+    margin-top: -25px;
 }
 
 .menu-topo nav ul li {
-    margin-left: 55px;
+    margin-left: 85px;
     margin-top: -5px;
     list-style: none;
     font-size: 21px;

@@ -49,20 +49,21 @@ body {
     cursor: pointer;
 }
 
-.center {
-    display: flex;
-}
-
-.center .left {
-    width: 30%;
-    margin: 80px 40px 0;
+.center-main .left {
+    width: 60%;
+    margin: 80px 30px 0;
     padding: 0 5%;
 }
 
-.center .left h3 {
-
+.center-main .left > h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
 }
 
-.center .right {
+.center-main .left p {
+    font-size: 21p;
+}
+
+.center-main .right {
     width: 70%;
 }
