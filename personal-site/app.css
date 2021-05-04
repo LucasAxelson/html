@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgrgb(189, 205, 209);
+}
+
+/* HEADER DIVS & IMGS */
+
+.header__container {
+  margin: 2rem 5rem;
+  padding-top: 3rem;
+}
+
+.header__img {
+  height: 300px;
+  width: 300px;
+  margin-left: 4rem;
+  position: absolute;
+
+  background-image: url("/personal-site/img/personal-img.jpg");
+  background-size: 350px;
+  background-position-x: center;
+  background-position-y: -25px;
+
+  float: left;
+  border-radius: 50%;
+  border: 5px rgb(63, 74, 124) solid;
+}
+
+/* HEADER TEXT */
+
+.header__text {
+  text-align: center;
+}
+
+.header--title {
+  display: inline;
+  font-size: 2.5rem;
+}
+
+.header--span {
+  font-size: 1.75rem;
+  font-style: italic;
+}
+
+.span--symbol {
+  padding: 0 1rem;
+}
+
+.header--paragraph {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
