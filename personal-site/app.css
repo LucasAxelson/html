@@ -10,7 +10,18 @@ body {
   background-color: rgrgb(189, 205, 209);
 }
 
+/* GENERAL CLASSES */
+
+.text--focus {
+  font-weight: 700;
+  font-style: italic;
+}
+
 /* HEADER DIVS & IMGS */
+
+header {
+  margin-bottom: 10rem;
+}
 
 .header__container {
   margin: 2rem 5rem;
@@ -57,4 +68,27 @@ body {
   margin-top: 1rem;
   font-size: 1.5rem;
   text-align: center;
+}
+
+/* SECTION - EXPERIENCE */
+
+.section__experience {
+  margin: 0 5rem;
+}
+
+.section--titles {
+  font-size: 1.75rem;
+  border-bottom: solid black 1.5px;
+
+  padding-top: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.section--list {
+  padding-top: 1.25rem;
+}
+
+.section--options {
+  font-size: 1.15rem;
+  padding: 0.25rem;
 }
