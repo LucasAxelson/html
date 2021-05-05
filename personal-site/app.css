@@ -70,25 +70,70 @@ header {
   text-align: center;
 }
 
-/* SECTION - EXPERIENCE */
+/* SECTION */
 
-.section__experience {
+section {
   margin: 0 5rem;
 }
 
 .section--titles {
-  font-size: 1.75rem;
-  border-bottom: solid black 1.5px;
-
   padding-top: 1.25rem;
   padding-bottom: 0.5rem;
+
+  border-bottom: solid black 1.5px;
+  font-size: 2rem;
 }
 
 .section--list {
-  padding-top: 1.25rem;
+  padding: 1.25rem 0 0 1.5rem;
 }
 
 .section--options {
-  font-size: 1.15rem;
   padding: 0.25rem;
+  font-size: 1.5rem;
+}
+
+/* TABLE */
+
+.table__skills {
+  display: flex;
+  justify-content: left;
+  border-spacing: 5rem 0;
+
+  margin: 1.25rem 0;
+}
+
+.table__columns {
+  padding: 1rem 2rem;
+
+  border: 1px solid rgba(0, 0, 0, 0.466);
+}
+
+.table__head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+
+  font-size: 1.75rem;
+}
+
+.table__head:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.466);
+
+  padding-right: 2.5rem;
+}
+
+.table__head:last-child {
+  padding-left: 2.5rem;
+}
+
+.table__cells {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+}
+
+.table__cells--first {
+  padding-top: 1.5rem;
+}
+
+.skills {
+  padding-right: 1.5rem;
 }
